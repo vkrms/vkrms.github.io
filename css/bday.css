@@ -242,6 +242,7 @@ section#bd-grid {
     background-position: center -46px;
     margin-top: -11px;
     position: relative;
+    padding-bottom: 60px;
 }
 
 #bd-grid .double h2 {
@@ -423,4 +424,90 @@ div#trick1 {
     height: 3px;
     background: #ff451a;
     margin: 0 10px 23px;
+}
+
+
+footer#bd-footer {
+    height: 180px;
+    background-image: url(/img/footer-bg.png);
+    background-repeat: repeat-x;
+    background-position: bottom 40px center;
+}
+
+footer#bd-footer h2 {
+    text-transform: uppercase;
+    color: #d9d9d9;
+    margin-bottom: 20px;
+}
+
+footer#bd-footer h2 a {
+    color: #1958ff;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s;
+}
+
+footer#bd-footer h2 a:hover {
+    border-bottom-color: #1958ff;
+}
+
+form#subscribe > * {
+    height: 53px;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    border: none;
+}
+
+form#subscribe input {
+    border: 1px solid #ffdf0f;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #a9a9a9;
+    font-family: 'Effra', sans-serif;
+    padding-left: 20px;
+    box-sizing: border-box;
+    width: 308px;
+    margin-right: 19px;
+    letter-spacing: 0.05em;
+    font-size: 20px;
+}
+
+.col.form {
+    width: 44.2%;
+}
+
+.col.legal {
+    width: 29%;
+    text-align: center;
+}
+
+.ya-share2.ya-share2_inited {
+    text-align: right;
+}
+
+a.ya-share2__link {
+    width: 53px;
+    height: 53px;
+    background-color: #ffdf0f;
+    border-radius: 5px;
+    display: inline-block;    
+}
+
+a.ya-share2__link[title="Twitter"] {
+    background-image: url(/img/tw.svg);
+    background-size: cover;
+}
+
+a.ya-share2__link[title="Facebook"] {
+    background-image: url(/img/fb.svg);
+    background-size: cover;
+}
+
+a.ya-share2__link[title="ВКонтакте"] {
+    background-image: url(/img/vk.svg);
+    background-size: cover;
+}
+
+span.ya-share2__badge {
+    display: none;
 }

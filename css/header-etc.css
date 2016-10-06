@@ -2,6 +2,8 @@ nav#topbar {
     background-color: #000;
     color: #fff;
     height: 44px;
+    box-sizing: border-box;
+    padding: 9px 0;
 }
 
 img#main-logo {
@@ -30,10 +32,13 @@ nav#prod-cats a {
     height: 100%;
     display: block;
     float: left;
-    border-left: 0.5px solid #1abbe3;
-    border-right: 0.5px solid #1abbe3;
+    border-left: 1px solid #1abbe3;
     padding: 21px 20px;
     box-sizing: border-box;
+}
+
+nav#prod-cats a:last-of-type {
+    border-right: 1px solid #1abbe3;
 }
 
 nav#menu-info {
@@ -79,8 +84,82 @@ div#basket-widget span {
     white-space: nowrap;
 }
 
-div#basket-widget:before {content: url(/img/basket.svg);float: left;margin: 11px 14px;}
+div#basket-widget:before {
+    content: url(/img/basket.svg);
+    float: left;
+    margin: 11px 14px;
+}
 
 span.bw-count {
     font-weight: bold;
+}
+
+a#topbar-city {
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    width: 68px;
+    height: 24px;
+    text-align: center;
+    /* line-height: 2; */
+    font-size: 12px;
+    padding: 3px;
+    box-sizing: border-box;
+    vertical-align: top;
+    margin-right: 19px;
+}
+
+a#topbar-tel {
+    font-size: 19px;
+}
+
+span#work-hours {
+    margin-left: 19px;
+    font-size: 12px;
+    vertical-align: text-top;
+    line-height: 1.7;
+}
+
+a#sign-up-in {
+    font-size: 14px;
+    float: right;
+}
+
+a#sign-up-in:after {
+    content: url(/img/person.svg);
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+
+form#subscribe button {
+    background-color: #ffdf0f;
+    border-radius: 5px;
+    width: 189px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    line-height: 2.6;
+}
+
+.col.catalog, .col.about, .col.help, .col.service {
+  width: 11.11%;
+}
+
+.col.subscribe {
+  width: 22.22%;
+}
+
+.col.social {
+  width: 33.33%;
+}
+
+
+footer#main-footer {
+    background-color: #f6f6f6;
+    overflow: auto;
+    border-top: 1px solid #dcddde;
+    padding-top: 24px;
 }

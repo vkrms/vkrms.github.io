@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <title>icover bday</title>
+
+        <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css">
+        <link rel="stylesheet" href="css/header-etc.css"/>
+        <link rel="stylesheet" href="css/bday.css"/>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="js/jquery.plugin.min.js"></script>
+        <script src="js/jquery.countdown.min.js"></script>
+        <script src="js/jquery.countdown-ru.js"></script>
+
+
+    </head>
+    <body>
+
+      <header id="main-header">
+
+        <nav id="topbar">
+          <div class="container">
+            <a id="topbar-city">Москва</a>
+            <a id="topbar-tel">+7 (495) 229-39-50</a>
+            <span>Ежедневно с 10:00 до 21:00</span>
+            <a>Регистрация / Вход</a>
+          </div>
+        </nav>
+
+        <div class="container main">
+          <img src="img/icover-logo.svg" alt="icover - магазин, в котором вы уверены" id="main-logo"/>
+          <nav id="menu-info">
+            <a href="">Почему мы</a>
+            <a href="">Каталог</a>
+            <a href="">Доставка и оплата</a>
+            <a href="">Гарантии и возврат</a>
+            <a href="">Магазины 3D</a>
+            <a href="">Контакты</a>
+            <a href="">Бонусы</a>
+            <a href="">Опт</a>
+          </nav>
+          <form>
+            <input type="text" id="header-search" placeholder="Например: чехол для iPhone 6" />
+          </form>
+          <div id="basket-widget">
+            <span class="bw-count">5 товаров</span>
+            <span class="bw-price">159 360 ₽</span>
+          </div>
+        </div>
+
+        <nav id="prod-cats">
+          <div class="container">
+            <a href="">Телефоны, планшеты, гаджеты</a>
+            <a href="">Аудио, фото, видео</a>
+            <a href="">Компьютеры, периферия</a>
+            <a href="">Дом и офис</a>
+            <a href="">Детям</a>
+            <a href="">Отдых и туризм</a>
+            <a href="">Для ремонта</a>
+          </div>
+        </nav>
+
+      </header>
+
+      <article id="bday">
+
+        <section id="bd-hero">
+          <div class="container">
+            <div class="col hero-1">
+              <h1>День рождения icover <span>отмечаем скидками</span></h1>
+            </div>
+            <div class="col hero-2">
+              <div id="counter-wrap">
+                <h3>до конца акции</h3>
+                <div id="counter"></div>
+                <div id="labels">
+                  <span>ч</span>
+                  <span>мин</span>
+                  <span>сек</span>
+                </div>
+              </div>
+            </div>
+            <div class="col hero-3">
+              <h2>скидки до 90%</h2>
+              <h3>всего 2 дня</h3>
+              <h4>17-18 октября</h4>
+              <a class="all">смотреть все товары</a>
+              <a class="cats">категории товаров</a>
+            </div>
+          </div>
+        </section>
+
+        <section id="bd-grid">
+          <div id="trick1"></div>
+          <div class="container">
+            <div class="row">
+
+              <div class="col double" id="mobile">
+                <img src="/img/smartphones.png">
+                <span class="sale">-90%</span>
+                <h2>
+                  Смартфоны, планшеты<br>
+                  и аксессуары
+                </h2>
+              </div>
+
+              <div class="col single" id="swatch">
+                <img src="/img/swatch.png">
+                <span class="sale">-75%</span>
+                <h2>Умные часы и<br>спортивные гаджеты</h2>
+              </div>
+
+              <div class="col single" id="gyro">
+                <img src="/img/gyro.png">
+                <span class="sale">-50%</span>
+                <h2>Электротранспорт</h2>
+              </div>
+
+              <div class="col double" id="gaming">
+                <img src="/img/mouse.png">
+                <span class="sale">-40%</span>
+                <h2>Игровые девайсы<br>и аксессуары</h2>
+              </div>
+
+              <div class="col single" id="cameras">
+                <img src="/img/camera.png">
+                <span class="sale">-85%</span>
+                <h2>Фото и видеотехника</h2>
+              </div>
+
+              <div class="col single" id="av">
+                <img src="/img/headphones.png">
+                <span class="sale">-50%</span>
+                <h2>Аудио и тв &#x25b6;</h2>
+              </div>
+
+              <div class="col single" id="computers">
+                <img src="/img/computers.png">
+                <span class="sale">-60%</span>
+                <h2>Компьютеры и<br>все для них <i class="pc"></i></h2>
+              </div>
+
+              <div class="col single" id="home">
+                <img src="/img/home.png">
+                <span class="sale">-50%</span>
+                <h2>Техника для дома<br>и кухни <i class="house"></i></h2>
+              </div>
+
+              <div class="col single" id="beauty">
+                <img src="/img/beauty.png">
+                <span class="sale">-50%</span>
+                <h2>Красота и здоровье</h2>
+              </div>
+
+              <div class="col single" id="kids">
+                <img src="/img/lego.png">
+                <span class="sale">-90%</span>
+                <h2>Товары для мам и детей <i class="mom"></i></h2>
+              </div>
+
+              <div class="col single" id="other">
+                <img src="/img/moleskin.png">
+                <span class="sale">-80%</span>
+                <h2>Другое <i class="hex"></i></h2>
+              </div>
+
+              <div class="col double" id="rc">
+                <img src="/img/copter.png">
+                <span class="sale">-90%</span>
+                <h2>Коптеры, радиоуправляемые<br>модели и игрушки</h2>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+      </article>
+
+      <script src="js/scripts.js"></script>
+    </body>
+</html>

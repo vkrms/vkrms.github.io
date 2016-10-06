@@ -1,0 +1,86 @@
+nav#topbar {
+    background-color: #000;
+    color: #fff;
+    height: 44px;
+}
+
+img#main-logo {
+    width: 232px;
+    float: left;
+    margin-right: 20px;
+}
+
+.container.main {
+    padding: 30px 0;
+    height: 132px;
+    box-sizing: border-box;
+}
+
+nav#prod-cats {
+    background-color: #00b3e0;
+    height: 61px;
+    color: #fff;
+}
+
+nav#prod-cats .container {
+    height: 100%;
+}
+
+nav#prod-cats a {
+    height: 100%;
+    display: block;
+    float: left;
+    border-left: 0.5px solid #1abbe3;
+    border-right: 0.5px solid #1abbe3;
+    padding: 21px 20px;
+    box-sizing: border-box;
+}
+
+nav#menu-info {
+    margin-bottom: 8px;
+    float: left;
+}
+
+nav#menu-info a {
+    font-size: 15px;
+    margin-right: 18.8px;
+}
+
+input#header-search {
+    width: 100%;
+    width: 769px;
+    height: 44px;
+    border: 1px solid #e7e7e7;
+    font-family: 'Effra', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+div#basket-widget {
+    float: left;
+    border: 1px solid #00b4e1;
+    color: #00b4e1;
+    height: 44px;
+    box-sizing: border-box;
+    width: 138px;
+    margin-left: 20px;
+    padding-top: 2px;
+}
+
+#main-header form {
+    float: left;
+}
+
+div#basket-widget span {
+    display: block;
+    white-space: nowrap;
+}
+
+div#basket-widget:before {content: url(/img/basket.svg);float: left;margin: 11px 14px;}
+
+span.bw-count {
+    font-weight: bold;
+}

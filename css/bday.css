@@ -478,17 +478,17 @@ a.ya-share2__link {
     display: inline-block;
 }
 
-a.ya-share2__link[title="Twitter"] {
+.ya-share2__item_service_twitter a {
     background-image: url(/img/tw.svg);
     background-size: cover;
 }
 
-a.ya-share2__link[title="Facebook"] {
+.ya-share2__item_service_facebook a {
     background-image: url(/img/fb.svg);
     background-size: cover;
 }
 
-a.ya-share2__link[title="Вконтакте"] {
+.ya-share2__item_service_vkontakte a {
     background-image: url(/img/vk.svg);
     background-size: cover;
 }

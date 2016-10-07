@@ -161,6 +161,16 @@ span.count {
     line-height: 0.7;
     display: inline-block;
     vertical-align: top;
+    text-align: left;
+}
+
+span.count:after {
+    content: "";
+    display: block;
+    width: 215px;
+    height: 1px;
+    background-color: #f2f2f2;
+    margin-top: 16px;
 }
 
 h2.section {
@@ -172,6 +182,7 @@ h2.section {
     padding: 0 60px;
     display: inline-block;
     z-index: 1;
+    margin-bottom: 60px;
 }
 
 .row {

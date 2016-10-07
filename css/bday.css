@@ -236,7 +236,7 @@ section#bd-grid {
     background-image: url(/img/pattern.png);
     background-repeat: repeat-x;
     overflow: auto;
-    background-position: center -46px;
+    background-position: center top;
     margin-top: -11px;
     position: relative;
     padding-bottom: 60px;
@@ -402,18 +402,6 @@ span.sale {
     color: #6b14fc;
 }
 
-div#trick1 {
-    position: absolute;
-    left: 0;
-    right: 140px;
-    top: 0;
-    z-index: 0;
-    width: 540px;
-    height: 50px;
-    background-color: #fff;
-    margin: auto;
-}
-
 #counter:before, #counter:after {
     content: "";
     display: inline-block;
@@ -500,7 +488,7 @@ a.ya-share2__link[title="Facebook"] {
     background-size: cover;
 }
 
-a.ya-share2__link[title="Ð’ÐšÐ¾Ð½Ñ‚Ð°ÐºÑ‚Ðµ"] {
+a.ya-share2__link[title="Вконтакте"] {
     background-image: url(/img/vk.svg);
     background-size: cover;
 }

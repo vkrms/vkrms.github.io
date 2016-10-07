@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Effra';
-    src: url('/fonts/effra-light.eot');
-    src: url('/fonts/effra-light.eot?#iefix') format('embedded-opentype'), url('/fonts/effra-light.woff') format('woff'), url('/fonts/effra-light.ttf') format('truetype'), url('/fonts/effra-light.svg#effra-light') format('svg');
+    src: url('/fonts/effra/effra-light.eot');
+    src: url('/fonts/effra/effra-light.eot?#iefix') format('embedded-opentype'), url('/fonts/effra/effra-light.woff') format('woff'), url('/fonts/effra/effra-light.ttf') format('truetype'), url('/fonts/effra/effra-light.svg#effra-light') format('svg');
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
@@ -10,8 +10,8 @@
 
 @font-face {
     font-family: 'Effra';
-    src: url('/fonts/effra-regular.eot');
-    src: url('/fonts/effra-regular.eot?#iefix') format('embedded-opentype'), url('/fonts/effra-regular.woff') format('woff'), url('/fonts/effra-regular.ttf') format('truetype'), url('/fonts/effra-regular.svg#effra-regular') format('svg');
+    src: url('/fonts/effra/effra-regular.eot');
+    src: url('/fonts/effra/effra-regular.eot?#iefix') format('embedded-opentype'), url('/fonts/effra/effra-regular.woff') format('woff'), url('/fonts/effra/effra-regular.ttf') format('truetype'), url('/fonts/effra-regular.svg#effra-regular') format('svg');
     font-weight: 400;
     font-style: normal;
     font-stretch: normal;
@@ -20,17 +20,12 @@
 
 @font-face {
     font-family: 'Effra';
-    src: url('/fonts/effra-bold.eot');
-    src: url('/fonts/effra-bold.eot?#iefix') format('embedded-opentype'), url('/fonts/effra-bold.woff') format('woff'), url('/fonts/effra-bold.ttf') format('truetype'), url('/fonts/effra-bold.svg#effra-bold') format('svg');
+    src: url('/fonts/effra/effra-bold.eot');
+    src: url('/fonts/effra/effra-bold.eot?#iefix') format('embedded-opentype'), url('/fonts/effra/effra-bold.woff') format('woff'), url('/fonts/effra/effra-bold.ttf') format('truetype'), url('/fonts/effra/effra-bold.svg#effra-bold') format('svg');
     font-weight: 700;
     font-style: normal;
     font-stretch: normal;
     /*unicode-range: U+0020-FB04;*/
-}
-
-body {
-    margin: 0;
-    font-family: 'Effra', sans-serif;
 }
 
 a {
@@ -41,6 +36,10 @@ a {
 
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
+    font-family: 'Effra', sans-serif;
+    font-weight: bold;
+    color: #242424;
+    line-height: 0.7;
 }
 
 .container {
@@ -171,10 +170,8 @@ a.cats:hover {
     color: #ff451a;
 }
 
-a.cats:after {
-    content: url(/img/angle-down.svg);
-    display: inline-block;
-    margin-left: 10px;
+a.cats:hover .st0 {
+    fill: #ff451a;
 }
 
 div#labels {
@@ -490,7 +487,7 @@ a.ya-share2__link {
     height: 53px;
     background-color: #ffdf0f;
     border-radius: 5px;
-    display: inline-block;    
+    display: inline-block;
 }
 
 a.ya-share2__link[title="Twitter"] {
@@ -503,11 +500,21 @@ a.ya-share2__link[title="Facebook"] {
     background-size: cover;
 }
 
-a.ya-share2__link[title="ВКонтакте"] {
+a.ya-share2__link[title="Ð’ÐšÐ¾Ð½Ñ‚Ð°ÐºÑ‚Ðµ"] {
     background-image: url(/img/vk.svg);
     background-size: cover;
 }
 
 span.ya-share2__badge {
     display: none;
+}
+
+svg.angle-down .st0 {
+    fill: #202020;
+    transition: all 0.3s;
+}
+
+
+header#main-header {
+    /* display: none; */
 }

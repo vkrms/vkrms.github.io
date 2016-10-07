@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>icover header</title>
+
+    <link rel="stylesheet" href="css/style_.css" />
+    <link rel="stylesheet" href="css/template_styles.css" />
+    <link rel="stylesheet" href="css/header-etc.css" />
+    <link rel="stylesheet" href="css/inspector-header.css" />
+
+</head>
+
+<body>
+
+    <div itemscope="" itemtype="http://schema.org/ElectronicsStore">
+        <div class="sub_panel">
+            <div class="wrap">
+                <div class="pull-right spanel_login_right">
+                    <p class="spanel_login_right_mainline" id="header_lk"> <span>
+    							<a href="#" title="Зарегистрироваться" onclick="registerPopup(); return false;">Регистрация</a>&nbsp;/
+    							<a href="#" onclick="authPopup(); return false;" title="Авторизация">Вход</a>
+    						</span>&nbsp;&nbsp;
+                        <a href="#" onclick="authPopup(); return false;" title="Авторизация"><i></i></a>
+                    </p>
+                    <div class="spanel_login_right_box">
+                        <div id="header_lk_menu">
+                            <ul class="spanel_login_right_menu">
+                                <li><a rel="nofollow" href="/personal/" title="">Личные данные</a>
+                                </li>
+                                <li><a rel="nofollow" href="/personal/profiles/" title="">Профили</a>
+                                </li>
+                                <li><a rel="nofollow" href="/personal/orders/" title="">Ваши заказы</a>
+                                </li>
+                                <li><a rel="nofollow" href="/personal/pass/" title="">Изменить пароль</a>
+                                </li>
+                                <li><a rel="nofollow" href="/personal/message/" title="">Вопросы</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <input type="submit" onclick="logoutMe(); return false;" value="Выход" class="spanel_login_right_btn">
+                    </div>
+                </div>
+                <div class="pull-left">
+                    <a href="#" onclick="cityPopup(); return false;" title="" class="spanel_city_left"><span id="set_city" data-city="">					Москва					</span>
+    					<i></i>
+    				</a>
+                    <meta itemprop="name" content="Интернет-магазин iCover">
+                    <meta itemprop="currenciesAccepted" content="RUB">
+                    <meta itemprop="url" content="http://www.icover.ru">
+                    <div style="display: none" itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+                        <meta itemprop="addressCountry" content="RU">
+                        <meta itemprop="streetAddress" content="ул.Новослободская д.50/1С2">
+                        <meta itemprop="addressLocality" content="Москва">
+                    </div>
+                    <span class="spanel_phone_left" id="header_phone" itemprop="telephone">		<!--span class="phone_add">8 (495)</span>&nbsp;<span class="phone_number">229-39-50</span!-->
+    		<a href="tel:+74952293950" class="spanel_phone_left ya-phone-h" id="header_phone" itemprop="telephone"><i>8 (495)</i>  229-39-50</a>
+    		</span>
+                    <i class="spanel_schedule_left"><time itemprop="openingHours" datetime="Mo-Su 10:00-21:00">Ежедневно с 10:00 до 21:00</time></i>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <div class="main_header_new clear">
+            <div class="wrap cleared">
+                <a rel="nofollow" href="/" title="" class="pull-left main_newlogo">
+                    <img src="/img/icover-logo.svg" alt="Интернет-магазин iCover" title="Интернет-магазин iCover" itemprop="logo">
+                </a>
+                <div class="pull-left main_head_center">
+                    <ul>
+                        <li><a href="/catalog/">Почему мы</a>
+                        </li>
+                        <li><a href="/catalog/">Каталог</a>
+                        </li>
+                        <li><a href="/about/shipping_amp_returns/">Доставка и оплата</a>
+                        </li>
+                        <li><a href="/about/guarantee/">Гарантии и возврат</a>
+                        </li>
+                        <li><a href="/about/about_us/">Магазины 3D</a>
+                        </li>
+                        <li><a href="/about/contact/">Контакты</a>
+                        </li>
+                        <li><a href="/bonusnaya-sistema.php">Бонусы</a>
+                        </li>
+                        <li><a href="/about/b2b/">Опт</a>
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+                    <div id="title-search">
+                        <form id="title-search_form" action="/search/index.php" class="head_search_form">
+                            <i class="head_search_form_close" onclick="$('#title-search-input').val('').trigger('bxchange').focus();"></i>
+                            <input name="q" id="title-search-input" type="text" placeholder="Например: чехол для iPhone 6" class="head_search_form_text" autocomplete="off">
+                            <input type="submit" value="" alt="" class="head_search_form_btn">
+                            <div class="head_search_form_searchresults" style="display: none;"></div>
+                            <div class="search-waiting"></div>
+                        </form>
+                    </div>
+
+                </div>
+                <noindex>
+                    <div id="bxdynamic_oLJPsr">
+                        <a rel="nofollow" href="#fancybox_basket-empty" title="" class="pull-left main_basket_set fancybox">
+                            <i></i>
+                            <span>
+    			<b>Пусто</b>
+    		</span>
+                        </a>
+                    </div>
+                    <div id="fancybox_basket-empty" style="display: none;">
+                        <div class="fancy_wrap_noform param_small">
+                            <div class="cbbTitle">
+                                <span popup-close="">назад</span>
+                                <div class="h1">Ваша корзина пуста</div>
+                            </div>
+                            <div class="trolley_empty cbbInfo">
+                                <img src="/bitrix/templates/main/images/trolley.jpg" alt="">
+                                <p>В вашей корзине пока нет товаров, вы можете добавить товар в корзину нажав кнопку купить</p>
+                            </div>
+                            <a href="/catalog/" title="" class="formcontrolbtn-send">Перейти к покупкам</a>
+                        </div>
+                    </div>
+                </noindex>
+            </div>
+        </div>
+    </div>
+
+    <div class="main_header_menu">
+        <div class="wrap">
+            <ul class="main_header_menu_ul">
+
+                <li class=""><a href="/catalog/category/smartphone_accessories/" title="Телефоны, планшеты и гаджеты купить в Москве">Телефоны, планшеты, гаджеты</a><i></i>
+                    
+                </li>
+
+                <li><a href="/catalog/category/audio_video/" title="Аудио, фото и видео техника купить в Москве">Аудио, фото, видео</a><i></i>
+                    
+                </li>
+
+                <li><a href="/catalog/category/computers_accessories/" title="Компьютеры, ноутбуки, периферия купить в Москве">Компьютеры, периферия</a><i></i>
+                    
+                </li>
+
+                <li><a href="/catalog/category/smart_home/" title="Товары для дома и офиса купить в Москве">Дом и офис</a><i></i>
+                    
+                </li>
+
+                <li><a href="/catalog/category/tovary_dlya_detey/" title="Товары для детей купить в Москве">Детям</a><i></i>
+                    
+                </li>
+
+                <li><a href="/catalog/category/koptery_igrushki_i_elektrotransport/" title="Товары для отдыхаи туризма купить в Москве">Отдых и туризм</a><i></i>
+                    
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

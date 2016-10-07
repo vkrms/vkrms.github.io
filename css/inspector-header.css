@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Effra';
+    src: url('/fonts/effra/effra-light.eot');
+    src: url('/fonts/effra/effra-light.eot?#iefix') format('embedded-opentype'), url('/fonts/effra/effra-light.woff') format('woff'), url('/fonts/effra/effra-light.ttf') format('truetype'), url('/fonts/effra/effra-light.svg#effra-light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    /*unicode-range: U+0020-FB04;*/
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('/fonts/effra/effra-regular.eot');
+    src: url('/fonts/effra/effra-regular.eot?#iefix') format('embedded-opentype'), url('/fonts/effra/effra-regular.woff') format('woff'), url('/fonts/effra/effra-regular.ttf') format('truetype'), url('/fonts/effra-regular.svg#effra-regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    /*unicode-range: U+0020-FB04;*/
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('/fonts/effra/effra-bold.eot');
+    src: url('/fonts/effra/effra-bold.eot?#iefix') format('embedded-opentype'), url('/fonts/effra/effra-bold.woff') format('woff'), url('/fonts/effra/effra-bold.ttf') format('truetype'), url('/fonts/effra/effra-bold.svg#effra-bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    /*unicode-range: U+0020-FB04;*/
+}
+
+.sub_panel {
+    height: 44px;
+    background-color: #000;
+    padding: 9px 0;
+    box-sizing: border-box;
+}
+
+.spanel_login_right {
+    height: auto;
+}
+
+.main_header, .main_header_green {
+    background: #fff;
+}
+
+.main_head_center ul li a {
+    color: #000;
+    font-size: 15px;
+    font-family: 'Effra', sans-serif;
+}
+
+.head_search_form .head_search_form_text {
+    height: 44px;
+    border: 1px solid #e7e7e7;
+    border-radius: 0;
+    font-family: 'Effra', sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.main_header_menu {
+    background: #00b3e0;
+    height: 61px;
+    color: #fff;
+    border: none;
+    font-family: 'Effra', sans-serif;
+}
+
+.main_header_menu_ul > li {
+    background: #00b3e0;
+    border: none;
+    height: 61px;
+    border-left: 1px solid #1abbe3;
+    padding: 18px 20px;
+    box-sizing: border-box;
+    position: relative;
+    top: -9px;
+    width: auto;
+}
+
+.main_header_menu_ul > li:last-of-type {
+    border-right: 1px solid #1abbe3;
+    width: auto;
+    float: left;
+}
+
+.main_header_menu_ul> li> a {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding: 0;
+    vertical-align: initial;
+    font-family: 'Effra', sans-serif;
+}
+
+.main_header_menu_ul {
+    height: 61px;
+    margin: 0;
+    width: 100%;
+}
+
+.main_newlogo {
+    width: 232px;
+    margin-right: 20px;
+}
+
+img, svg {
+    max-width: 100%;
+}
+
+.main_header_new.clear .wrap {
+    padding: 30px 0;
+    height: 132px;
+    box-sizing: border-box;
+}
+
+.main_head_center {
+    margin: 0;
+    width: 769px;
+}
+
+.main_head_center ul {
+    margin-top: -7px;
+}
+
+.head_search_form {
+    width: 100%;
+}
+
+li#repair-menu {
+    display: none;
+}
+
+.main_header_menu .wrap {
+    height: 100%;
+}
+
+.main_header_menu .wrap:before, .main_header_menu .wrap:after {
+    content: none;
+}

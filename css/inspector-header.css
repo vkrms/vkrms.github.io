@@ -28,6 +28,15 @@
     /*unicode-range: U+0020-FB04;*/
 }
 
+/*FOOTER*/
+.footer_bottom {
+    background: #000;
+    height: 65px;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+
+/*HEADER*/
 .sub_panel {
     height: 44px;
     background-color: #000;

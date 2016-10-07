@@ -33,8 +33,10 @@ nav#prod-cats a {
     display: block;
     float: left;
     border-left: 1px solid #1abbe3;
-    padding: 21px 20px;
+    padding: 21px 20.4px;
     box-sizing: border-box;
+    background: #00b3e0;
+    font-size: 16px;
 }
 
 nav#prod-cats a:last-of-type {
@@ -49,6 +51,7 @@ nav#menu-info {
 nav#menu-info a {
     font-size: 15px;
     margin-right: 18.8px;
+    font-weight: 400;
 }
 
 input#header-search {
@@ -82,6 +85,7 @@ div#basket-widget {
 div#basket-widget span {
     display: block;
     white-space: nowrap;
+    font-size: 15px;
 }
 
 div#basket-widget:before {
